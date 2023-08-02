@@ -1,0 +1,166 @@
+.maindiv{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.space{
+    flex: 1 1 auto;
+}
+
+
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: #f2eeee;
+}
+  
+.example-sidenav-content {
+    display: flex;
+  }
+  
+.drawer {
+    padding: 10px;
+    width: 20%;
+    box-shadow: 4px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.navbutton{
+    width: 18vw;
+    height: 8vh;
+    background-image: linear-gradient(to right, #1954d4 0%, #396fe3  51%, #658de6  100%);
+}
+
+.dropdown{
+    width: 18vw;
+    height:6vh;
+    font-size: 1vw;
+}
+
+.dropdown:hover{
+    background-color: #d6d3d3;
+}
+
+.photocard{
+    width: 6vw;
+    height: 12vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.skills{
+    color: rgb(105, 11, 129); 
+    font-size: 1vw; 
+    border-radius: 2vh; 
+    height: 4vh;  
+    display: inline-block; 
+    white-space: nowrap; 
+    border: 2px solid rgb(11, 29, 129); 
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+
+.resumelistdiv{
+    width: 12vw;
+    height: 4vh;
+    background-image: linear-gradient(to right, #1954d4 0%, #396fe3  51%, #658de6  100%);
+    border-radius: 5px;
+}
+
+
+.mattitle{
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    // align-items: center;
+    color: #6a3589;
+    background-color: rgba(239,251,255,255);
+}
+
+mat-card-title{
+    font-size: 1.2vw;
+}
+
+.person-card{
+    border: 1px solid #ccc7c7;
+}
+
+.search-bar1 {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(0, 187, 255); /* Use your custom border color */
+    border-radius: 25px; /* Adjust the value to control the border curve */
+    width: 18vw; /* Set your desired width */
+    height: 2.5vh;
+    margin: 20px; /* Set your desired margin */
+    padding: 5px 10px; /* Set your desired padding */
+    position: relative;
+}
+  
+.search-bar1 input {
+    border: none;
+    flex: 1;
+    background-color: transparent;
+    outline: none;
+    font-size: 0.8vw; /* Adjust the font size as needed */
+}
+
+
+.searchicon1{
+    // padding: 10%;
+    font-size: 1.5vw;
+    color: #b765e6;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(0, 187, 255); /* Use your custom border color */
+    border-radius: 25px; /* Adjust the value to control the border curve */
+    width: 13vw; /* Set your desired width */
+    height: 2vh;
+    margin: 20px; /* Set your desired margin */
+    padding: 5px 10px; /* Set your desired padding */
+    position: relative;
+}
+  
+.search-bar input {
+    border: none;
+    flex: 1;
+    background-color: transparent;
+    outline: none;
+    font-size: 0.8vw; /* Adjust the font size as needed */
+}
+
+
+.searchicon{
+    // padding: 10%;
+    font-size: 1.3vw;
+    color: #b765e6;
+    padding-top: 3px;
+}
+
+
+:host ::ng-deep .mat-form-field-underline {
+    display: none;
+  }
+  
+  :host ::ng-deep .mat-form-field-ripple {
+    display: none;
+  }
+  
+// .web-interview {
+//     background-color: #f3f0f0; /* Replace with your desired color for web zoom interview */
+// }
+
+.in-person-interview {
+    background-color: #e1f787; /* Replace with your desired color for in-person interview */
+}
+
+.hired {
+    background-color: #2ee343; /* Replace with your desired color for hired */
+}
+
+.rejected {
+    background-color: #fc0808; /* Replace with your desired color for rejected */
+}
