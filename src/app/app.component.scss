@@ -88,12 +88,12 @@ mat-card-title{
 .search-bar1 {
     display: flex;
     align-items: center;
-    border: 2px solid rgb(0, 187, 255); /* Use your custom border color */
-    border-radius: 25px; /* Adjust the value to control the border curve */
-    width: 18vw; /* Set your desired width */
+    border: 2px solid rgb(0, 187, 255); 
+    border-radius: 25px; 
+    width: 18vw;
     height: 2.5vh;
-    margin: 20px; /* Set your desired margin */
-    padding: 5px 10px; /* Set your desired padding */
+    margin: 20px;
+    padding: 5px 10px;
     position: relative;
 }
   
@@ -102,7 +102,7 @@ mat-card-title{
     flex: 1;
     background-color: transparent;
     outline: none;
-    font-size: 0.8vw; /* Adjust the font size as needed */
+    font-size: 0.8vw;
 }
 
 
@@ -115,12 +115,12 @@ mat-card-title{
 .search-bar {
     display: flex;
     align-items: center;
-    border: 2px solid rgb(0, 187, 255); /* Use your custom border color */
-    border-radius: 25px; /* Adjust the value to control the border curve */
-    width: 13vw; /* Set your desired width */
+    border: 2px solid rgb(0, 187, 255); 
+    border-radius: 25px;
+    width: 13vw; 
     height: 2vh;
-    margin: 20px; /* Set your desired margin */
-    padding: 5px 10px; /* Set your desired padding */
+    margin: 20px;
+    padding: 5px 10px;
     position: relative;
 }
   
@@ -129,7 +129,7 @@ mat-card-title{
     flex: 1;
     background-color: transparent;
     outline: none;
-    font-size: 0.8vw; /* Adjust the font size as needed */
+    font-size: 0.8vw; 
 }
 
 
@@ -143,24 +143,20 @@ mat-card-title{
 
 :host ::ng-deep .mat-form-field-underline {
     display: none;
-  }
+}
   
-  :host ::ng-deep .mat-form-field-ripple {
+:host ::ng-deep .mat-form-field-ripple {
     display: none;
-  }
+}
   
-// .web-interview {
-//     background-color: #f3f0f0; /* Replace with your desired color for web zoom interview */
-// }
 
 .in-person-interview {
-    background-color: #e1f787; /* Replace with your desired color for in-person interview */
+    background-color: #e1f787; 
 }
 
 .hired {
-    background-color: #2ee343; /* Replace with your desired color for hired */
+    background-color: #2ee343;
 }
 
 .rejected {
-    background-color: #fc0808; /* Replace with your desired color for rejected */
-}
+    background-color: #fc0808; 
